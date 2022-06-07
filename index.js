@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import express from 'express';
 import mongoose from 'mongoose';
-import router from './routes/index.js';
+import router from './src/routes/index.js';
 import cors from "cors"
 const mongoString = process.env.DATABASE_URL
 
